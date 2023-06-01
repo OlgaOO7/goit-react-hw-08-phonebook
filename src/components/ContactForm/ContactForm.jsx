@@ -2,17 +2,17 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getContacts } from '../../redux/contacts/contactsSlice';
+import { selectContacts } from '../../redux/contacts/selectors';
 import { addContact } from '../../redux/contacts/operations';
 import css from './ContactForm.module.css';
 
 export function ContactForm() {
   const [name, setName] = useState('');
-  const [phone, setNumber] = useState('');
+  const [number, setNumber] = useState('');
 
   const dispatch = useDispatch();
 
-  const contacts = useSelector(getContacts);
+  const contacts = useSelector(selectContacts);
 
   const handleContactNameChange = evt => {
     setName(evt.target.value);
@@ -45,7 +45,7 @@ export function ContactForm() {
     dispatch(
       addContact({
         name,
-        phone,
+        number,
       })
     );
     reset();
@@ -78,7 +78,7 @@ export function ContactForm() {
           <input
             type="tel"
             name="number"
-            value={phone}
+            value={number}
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required

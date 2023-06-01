@@ -7,10 +7,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./img/phonet.jpg) no-repeat;
-  /* background-size: cover;
+  /* background: url(./img/phonet.jpg) no-repeat;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed; */
+  /* overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%); */
+
+  background-color: #9bafd9;
+
+  /* #103783 */
+  
+  /* background:
+  linear-gradient(
+    #085078,
+    transparent
+  ),
+  linear-gradient(
+    90deg,
+    #85d8ce,
+    transparent
+  ),
+  linear-gradient(
+    -90deg,
+    coral,
+    transparent
+  ); */
 }
 
 code {
