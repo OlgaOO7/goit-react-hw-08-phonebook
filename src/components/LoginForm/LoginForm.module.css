@@ -1,0 +1,71 @@
+.logWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.logTitle {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+
+.logForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 40px 20px;
+  gap: 20px;
+  background: linear-gradient(rgba(195, 207, 232, 0.45), rgba(175, 186, 208, 0.65));
+  border: 1px solid #fff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logLabelForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0 10px #c7d2dc;
+  color: #fff;
+  text-shadow: 1px 0 10px #7A8291;
+}
+
+.logInputForm {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+.logBtn {
+  /* margin-left: 80px; */
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6C7A97;
+  background-color: #c7d2dc;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 12px #212121;
+}
+
+.logBtn:hover {
+  color: #c7d2dc;
+  text-shadow: 1px 0 10px #d8e4eb;
+  background-color: #566178;
+  box-shadow: 0px 4px 12px #fff;
+  letter-spacing: 0.5px;
+  transform: scale(1.08);
+}
