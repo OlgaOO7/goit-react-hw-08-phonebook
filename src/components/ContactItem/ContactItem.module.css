@@ -1,6 +1,5 @@
 .contactItem {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: space-between;
   gap: 20px;
@@ -17,12 +16,13 @@
   font-size: 20px;
   letter-spacing: 0.5px;
   text-shadow: 1px 0 10px #c7d2dc;
+  color: #fff;
 }
 
 .deleteBtn {
   border-radius: 10px;
   padding: 4px 8px;
-  /* padding: 8px 16px; */
+  color: #4D576C;
   background-color: #c7d2dc;
   border-radius: 10px;
   border: none;

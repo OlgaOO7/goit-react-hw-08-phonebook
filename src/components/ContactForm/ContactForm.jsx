@@ -33,15 +33,6 @@ export function ContactForm() {
       });
     }
 
-    // const form = evt.terget;
-    //   dispatch(addContact({
-    //       name: form.elements.name.value,
-    //       number: form.elements.number.value,
-    //     }));
-    //     // reset();
-    //     form.reset();
-    // };
-
     dispatch(
       addContact({
         name,

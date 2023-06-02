@@ -7,8 +7,6 @@ import Layout from "components/Layout";
 import { RestrictedRoute } from "components/RestrictedRoute";
 import { PrivateRoute } from "components/PrivateRoute";
 
-// import css from './App.module.css';
-
 const HomePage = lazy(() => import('../../pages/Home/Home'));
 const LoginPage = lazy (() => import ('../../pages/Login/Login'));
 const RegisterPage = lazy(() => import ('../../pages/Register/Register'));

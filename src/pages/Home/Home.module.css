@@ -1,0 +1,17 @@
+@keyframes rollout {
+  0% { transform: translateY(-100px); }
+  100% { transform: none; }
+}
+
+.titleWrapper{
+display: flex;
+justify-content: center;
+padding-top: 100px;
+animation: rollout 0.4s;
+}
+
+.homeTitle{
+  color: #fff;
+  font-weight: 800;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}

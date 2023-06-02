@@ -1,7 +1,12 @@
+import css from "./Home.module.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>
+    <div className={css.titleWrapper}>
+
+
+
+      <h1 className={css.homeTitle}>
         Welcome to your Phonebook!
       </h1>
     </div>
@@ -9,3 +14,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

@@ -1,7 +1,15 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  /* margin-top: 40px; */
   margin-bottom: 40px;
   gap: 20px;
 }
@@ -13,7 +21,8 @@
   font-weight: 500;
   font-size: 22px;
   letter-spacing: 0.5px;
-  text-shadow: 1px 0 10px #c7d2dc;
+  color: #fff;
+  text-shadow: 1px 0 10px #7A8291;
 }
 
 .inputForm {
@@ -26,11 +35,11 @@
 }
 
 .addBtn {
-  margin-left: 80px;
+  margin: auto;
   padding: 8px 16px;
   font-weight: 500;
   font-size: 20px;
-  color: #212121;
+  color: #4D576C;
   background-color: #c7d2dc;
   border-radius: 10px;
   border: none;
@@ -40,7 +49,7 @@
 .addBtn:hover {
   color: #c7d2dc;
   text-shadow: 1px 0 10px #d8e4eb;
-  background-color: #2e2e2e;
+  background-color: #566178;
   box-shadow: 0px 4px 12px #fff;
   letter-spacing: 0.5px;
   transform: scale(1.08);
